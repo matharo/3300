@@ -1,0 +1,26 @@
+{
+  "name": "electron-react-typescript-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx webpack && electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^16.8.8",
+    "@types/react-dom": "^16.8.3",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "webpack": "^4.29.6"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "electron": "^4.1.1",
+    "source-map-loader": "^0.2.4",
+    "typescript": "^3.3.4000",
+    "webpack-cli": "^3.3.0"
+  }
+}
